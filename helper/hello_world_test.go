@@ -14,3 +14,9 @@ func TestHelloWorldMaulana(t *testing.T){
 		panic("result it not Maulana")
 	}
 }
+func TestGoodbye(t *testing.T){
+	result := SayGoodbye()
+	if result != "Good Bye" {
+		panic("result it not good bye...")
+	}
+}
