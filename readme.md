@@ -2,7 +2,7 @@
 
 # Aturan
 
-Tambahkan _test pada akhir nama file
+Tambahkan \_test pada akhir nama file
 
 ```go
 hello_world_test.go
@@ -10,7 +10,7 @@ hello_world_test.go
 
 Awali Test pada nama function-nya
 
-Tambahkan parameter t *Testing.T dan tidak mengembalikan return value
+Tambahkan parameter t \*Testing.T dan tidak mengembalikan return value
 
 ```go
 func TestHelloWorld(t *Testing.T) {
@@ -36,3 +36,9 @@ Untuk menjalankan unit test, project harus memiliki struktur seperti berikut
 Jalankan unit test dengan perintah `go test` di dalam folder helper
 
 Jika ingin menjalankan satu function testing saja bisa menggunakan `go test -v -run TestHelloWorld`
+
+# Assertion
+
+```shell
+go get github.com/stretchr/testify
+```
